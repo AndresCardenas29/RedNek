@@ -1,0 +1,25 @@
+/* @import "colores.css"; */
+body::-webkit-scrollbar {
+    background: var(--girs-claro);
+    width: 15px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #C1C1C1;
+}
+
+body::-webkit-scrollbar-button {
+    background: var(--girs-claro);
+    color: #C1C1C1;
+}
+
+body::-webkit-scrollbar-button:vertical:decrement {
+    background-image: url('../img/scrollbar/navigate-up-arrow.svg');
+    background-size: cover;
+}
+
+body::-webkit-scrollbar-button:vertical:increment {
+    background-image: url('../img/scrollbar/arrow-down-sign-to-navigate.svg');
+    background-size: cover;
+}
+

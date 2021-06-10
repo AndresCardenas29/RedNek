@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <title>Inicio de sesion o registrarse - Rednek</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+
+    <!-- FA4 -->
+    <link rel="stylesheet" href="assets/fa4/css/all.css">
+
+    <!-- Css's -->
+    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="stylesheet" href="assets/css/scroll-bar.css">
+    <link rel="stylesheet" href="assets/css/colores.css"><!-- Colores -->
+
+</head>
+
+<body>
+
+    <div class="registro">
+        <div class="contenedor">
+            <div class="btn-cerrar">
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <h4>Registrarte</h4>
+            <label for="">Es rapido y facil.</label>
+            <hr>
+            <form action="">
+                <input type="text" name="nombrer" id="nombrer" placeholder="Nombre" autocomplete="off">
+                <input type="text" name="apellidor" id="apellidor" placeholder="Apellido" autocomplete="off">
+                <input type="email" name="emailr" id="emailr" placeholder="Correo electronico" autocomplete="off">
+                <input type="password" name="passr" id="passr" placeholder="Contrasena nueva" autocomplete="off">
+                <small>Fecha de nacimiento</small>
+                <select name="dia" id="dia">
+                    <option value="1" selected>1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                <select name="mes" id="mes">
+                    <option value="1" selected>Enero</option>
+                    <option value="2">Febrero</option>
+                    <option value="3">Marzo</option>
+                    <option value="4">Abril</option>
+                </select>
+                <select name="anio" id="anio">
+                    <option value="1" selected>1990</option>
+                    <option value="2">1995</option>
+                    <option value="3">2000</option>
+                    <option value="4">2005</option>
+                </select>
+                <small>Sexo</small>
+                <span>
+                    <label for="mujer">Mujer</label>
+                    <input type="radio" name="sexo" value="1">
+                </span>
+                <span>
+                    <label for="mujer">Hombre</label>
+                    <input type="radio" name="sexo" value="2">
+                </span>
+                <span>
+                    <label for="mujer">Personalizado</label>
+                    <input type="radio" name="sexo" value="3">
+                </span>
+                <div class="politica">
+                    Al hacer clic en "Registrarte", aceptas nuestras Condiciones, la <a href="#">Política de datos</a> y
+                    la <a href="#">Política de cookies</a>. Es posible que te enviemos notificaciones por SMS, que
+                    puedes desactivar cuando quieras.
+                </div>
+                <div class="btn-registrarse">
+                    <input type="submit" value="Registrarte" class="btn btn-success">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="container contenido">
+        <div class="row">
+            <div class="col">
+                <div class="login">
+                    <h1 class="display-4" id="prueba">Rednek</h1>
+                    <form action="">
+                        <input type="email" name="email" id="email" class="form-control"
+                            placeholder="Correo electronico" autocomplete="off">
+                        <input type="password" name="pass" id="pass" class="form-control" placeholder="Contraseña"
+                            autocomplete="off">
+                        <input type="submit" value="Iniciar sesion" class="form-control">
+                        <a href="#">¿Olvidaste tu contraseña?</a>
+                        <hr>
+                        <a class="btn btn-success" role="button">Crear cuenta nueva</a>
+                    </form>
+                    <p>Crea una página para un personaje público, un grupo de música o un negocio.
+                    </p>
+                </div>
+            </div>
+            <div class="col bnv">
+                <div class="bienvenida">
+                    <h1 class="display-3" id="prueba">Rednek</h1>
+                    <p>Rednek te ayuda a comunicarte y compartir con las personas que forman parte de tu vida.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="idioma">
+                <a href="#" class="active">Espanol</a>
+                <a href="#">English (US)</a>
+                <a href="#">Italiano</a>
+            </div>
+            <hr>
+            <div class="links">
+                <a href="#">Registrarte</a>
+                <a href="#">Iniciar sesion</a>
+                <a href="#">Informacion</a>
+                <a href="#">Condiciones</a>
+                <a href="#">Ayuda</a>
+            </div>
+            <div class="copyrigth">
+                Andres Cardenas &copy; 2020
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/bootstrap/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/popper.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.js"></script>
+
+    <!-- FA4 -->
+    <script src="assets/fa4/js/all.js"></script>
+
+    <!-- Script's -->
+    <script src="assets/js/menu-registro.js"></script>
+</body>
+
+</html>
